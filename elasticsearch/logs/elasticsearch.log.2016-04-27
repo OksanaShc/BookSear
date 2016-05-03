@@ -1,0 +1,13 @@
+[2016-04-27 22:53:25,648][INFO ][node                     ] [Scimitar] version[2.3.2], pid[2739], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-04-27 22:53:25,649][INFO ][node                     ] [Scimitar] initializing ...
+[2016-04-27 22:53:27,543][INFO ][plugins                  ] [Scimitar] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-27 22:53:27,672][INFO ][env                      ] [Scimitar] using [1] data paths, mounts [[/ (/dev/disk/by-uuid/ea8b11de-1c7e-42ff-920c-7920affc6e86)]], net usable_space [118.5gb], net total_space [142.2gb], spins? [possibly], types [ext4]
+[2016-04-27 22:53:27,673][INFO ][env                      ] [Scimitar] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2016-04-27 22:53:33,423][INFO ][node                     ] [Scimitar] initialized
+[2016-04-27 22:53:33,424][INFO ][node                     ] [Scimitar] starting ...
+[2016-04-27 22:53:33,845][INFO ][transport                ] [Scimitar] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2016-04-27 22:53:33,865][INFO ][discovery                ] [Scimitar] elasticsearch/uq_zaP6yTbqIyVmCyPUtZQ
+[2016-04-27 22:53:36,988][INFO ][cluster.service          ] [Scimitar] new_master {Scimitar}{uq_zaP6yTbqIyVmCyPUtZQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-27 22:53:37,018][INFO ][http                     ] [Scimitar] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2016-04-27 22:53:37,019][INFO ][node                     ] [Scimitar] started
+[2016-04-27 22:53:37,172][INFO ][gateway                  ] [Scimitar] recovered [0] indices into cluster_state

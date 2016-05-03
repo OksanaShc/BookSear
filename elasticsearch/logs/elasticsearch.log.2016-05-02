@@ -1,0 +1,270 @@
+[2016-05-02 10:09:13,309][INFO ][node                     ] [Super Sabre] stopping ...
+[2016-05-02 10:09:13,428][INFO ][node                     ] [Super Sabre] stopped
+[2016-05-02 10:09:13,429][INFO ][node                     ] [Super Sabre] closing ...
+[2016-05-02 10:09:13,444][INFO ][node                     ] [Super Sabre] closed
+[2016-05-02 10:12:49,656][INFO ][node                     ] [Plague] version[2.3.2], pid[7410], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-02 10:12:49,657][INFO ][node                     ] [Plague] initializing ...
+[2016-05-02 10:12:50,778][INFO ][plugins                  ] [Plague] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-02 10:12:50,821][INFO ][env                      ] [Plague] using [1] data paths, mounts [[/ (/dev/disk/by-uuid/ea8b11de-1c7e-42ff-920c-7920affc6e86)]], net usable_space [118.8gb], net total_space [142.2gb], spins? [possibly], types [ext4]
+[2016-05-02 10:12:50,821][INFO ][env                      ] [Plague] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2016-05-02 10:12:55,022][INFO ][node                     ] [Plague] initialized
+[2016-05-02 10:12:55,022][INFO ][node                     ] [Plague] starting ...
+[2016-05-02 10:12:55,180][INFO ][transport                ] [Plague] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2016-05-02 10:12:55,188][INFO ][discovery                ] [Plague] elasticsearch/Ak0QlhqeQkyfNyWeSnAbNQ
+[2016-05-02 10:12:58,296][INFO ][cluster.service          ] [Plague] new_master {Plague}{Ak0QlhqeQkyfNyWeSnAbNQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-02 10:12:58,361][INFO ][http                     ] [Plague] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2016-05-02 10:12:58,362][INFO ][node                     ] [Plague] started
+[2016-05-02 10:12:58,716][INFO ][gateway                  ] [Plague] recovered [3] indices into cluster_state
+[2016-05-02 10:13:02,596][INFO ][cluster.routing.allocation] [Plague] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[lib][3]] ...]).
+[2016-05-02 23:20:34,312][INFO ][node                     ] [Plague] stopping ...
+[2016-05-02 23:20:41,226][INFO ][node                     ] [Plague] stopped
+[2016-05-02 23:20:41,226][INFO ][node                     ] [Plague] closing ...
+[2016-05-02 23:20:42,028][INFO ][node                     ] [Plague] closed
+[2016-05-02 23:31:42,702][INFO ][node                     ] [Remy LeBeau] version[2.3.2], pid[4509], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-02 23:31:42,703][INFO ][node                     ] [Remy LeBeau] initializing ...
+[2016-05-02 23:31:46,388][INFO ][plugins                  ] [Remy LeBeau] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-02 23:31:46,516][INFO ][env                      ] [Remy LeBeau] using [1] data paths, mounts [[/ (/dev/disk/by-uuid/ea8b11de-1c7e-42ff-920c-7920affc6e86)]], net usable_space [118.7gb], net total_space [142.2gb], spins? [possibly], types [ext4]
+[2016-05-02 23:31:46,517][INFO ][env                      ] [Remy LeBeau] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2016-05-02 23:31:56,312][INFO ][node                     ] [Remy LeBeau] initialized
+[2016-05-02 23:31:56,313][INFO ][node                     ] [Remy LeBeau] starting ...
+[2016-05-02 23:31:56,596][INFO ][transport                ] [Remy LeBeau] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2016-05-02 23:31:56,619][INFO ][discovery                ] [Remy LeBeau] elasticsearch/Wci1lSITQRi14OFKI558zw
+[2016-05-02 23:31:59,733][INFO ][cluster.service          ] [Remy LeBeau] new_master {Remy LeBeau}{Wci1lSITQRi14OFKI558zw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-02 23:31:59,802][ERROR][bootstrap                ] [Remy LeBeau] Exception
+BindHttpException[Failed to bind to [9300]]; nested: ChannelException[Failed to bind to: /0:0:0:0:0:0:0:1%lo:9300]; nested: BindException[Address already in use];
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.bindAddress(NettyHttpServerTransport.java:389)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.createBoundHttpAddress(NettyHttpServerTransport.java:287)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.doStart(NettyHttpServerTransport.java:273)
+	at org.elasticsearch.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:68)
+	at org.elasticsearch.http.HttpServer.doStart(HttpServer.java:92)
+	at org.elasticsearch.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:68)
+	at org.elasticsearch.node.Node.start(Node.java:289)
+	at org.elasticsearch.bootstrap.Bootstrap.start(Bootstrap.java:206)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:272)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+Caused by: org.jboss.netty.channel.ChannelException: Failed to bind to: /0:0:0:0:0:0:0:1%lo:9300
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:272)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport$1.onPortNumber(NettyHttpServerTransport.java:377)
+	at org.elasticsearch.common.transport.PortsRange.iterate(PortsRange.java:58)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.bindAddress(NettyHttpServerTransport.java:372)
+	... 9 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.jboss.netty.channel.socket.nio.NioServerBoss$RegisterTask.run(NioServerBoss.java:193)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.processTaskQueue(AbstractNioSelector.java:391)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:315)
+	at org.jboss.netty.channel.socket.nio.NioServerBoss.run(NioServerBoss.java:42)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-05-02 23:31:59,890][INFO ][node                     ] [Remy LeBeau] stopping ...
+[2016-05-02 23:32:00,599][INFO ][gateway                  ] [Remy LeBeau] recovered [3] indices into cluster_state
+[2016-05-02 23:32:00,648][WARN ][gateway                  ] [Remy LeBeau] [my][3]: failed to list shard for shard_started on node [Wci1lSITQRi14OFKI558zw]
+FailedNodeException[Failed node [Wci1lSITQRi14OFKI558zw]]; nested: TransportException[transport stopped, action: internal:gateway/local/started_shards[n]];
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.onFailure(TransportNodesAction.java:206)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.access$800(TransportNodesAction.java:106)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction$2.handleException(TransportNodesAction.java:179)
+	at org.elasticsearch.transport.TransportService$2.run(TransportService.java:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: TransportException[transport stopped, action: internal:gateway/local/started_shards[n]]
+	... 4 more
+[2016-05-02 23:32:00,655][WARN ][gateway                  ] [Remy LeBeau] [lib][1]: failed to list shard for shard_started on node [Wci1lSITQRi14OFKI558zw]
+FailedNodeException[Failed node [Wci1lSITQRi14OFKI558zw]]; nested: TransportException[transport stopped, action: internal:gateway/local/started_shards[n]];
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.onFailure(TransportNodesAction.java:206)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.access$800(TransportNodesAction.java:106)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction$2.handleException(TransportNodesAction.java:179)
+	at org.elasticsearch.transport.TransportService$2.run(TransportService.java:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: TransportException[transport stopped, action: internal:gateway/local/started_shards[n]]
+	... 4 more
+[2016-05-02 23:32:00,655][WARN ][gateway                  ] [Remy LeBeau] [lib][2]: failed to list shard for shard_started on node [Wci1lSITQRi14OFKI558zw]
+FailedNodeException[Failed node [Wci1lSITQRi14OFKI558zw]]; nested: TransportException[transport stopped, action: internal:gateway/local/started_shards[n]];
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.onFailure(TransportNodesAction.java:206)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.access$800(TransportNodesAction.java:106)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction$2.handleException(TransportNodesAction.java:179)
+	at org.elasticsearch.transport.TransportService$2.run(TransportService.java:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: TransportException[transport stopped, action: internal:gateway/local/started_shards[n]]
+	... 4 more
+[2016-05-02 23:32:00,648][WARN ][gateway                  ] [Remy LeBeau] [lib][4]: failed to list shard for shard_started on node [Wci1lSITQRi14OFKI558zw]
+FailedNodeException[Failed node [Wci1lSITQRi14OFKI558zw]]; nested: TransportException[transport stopped, action: internal:gateway/local/started_shards[n]];
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.onFailure(TransportNodesAction.java:206)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.access$800(TransportNodesAction.java:106)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction$2.handleException(TransportNodesAction.java:179)
+	at org.elasticsearch.transport.TransportService$2.run(TransportService.java:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: TransportException[transport stopped, action: internal:gateway/local/started_shards[n]]
+	... 4 more
+[2016-05-02 23:32:00,648][WARN ][gateway                  ] [Remy LeBeau] [my][4]: failed to list shard for shard_started on node [Wci1lSITQRi14OFKI558zw]
+FailedNodeException[Failed node [Wci1lSITQRi14OFKI558zw]]; nested: TransportException[transport stopped, action: internal:gateway/local/started_shards[n]];
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.onFailure(TransportNodesAction.java:206)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.access$800(TransportNodesAction.java:106)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction$2.handleException(TransportNodesAction.java:179)
+	at org.elasticsearch.transport.TransportService$2.run(TransportService.java:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: TransportException[transport stopped, action: internal:gateway/local/started_shards[n]]
+	... 4 more
+[2016-05-02 23:32:00,648][WARN ][gateway                  ] [Remy LeBeau] [murder_on_the_links_by_agatha_christie][2]: failed to list shard for shard_started on node [Wci1lSITQRi14OFKI558zw]
+FailedNodeException[Failed node [Wci1lSITQRi14OFKI558zw]]; nested: TransportException[transport stopped, action: internal:gateway/local/started_shards[n]];
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.onFailure(TransportNodesAction.java:206)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.access$800(TransportNodesAction.java:106)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction$2.handleException(TransportNodesAction.java:179)
+	at org.elasticsearch.transport.TransportService$2.run(TransportService.java:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: TransportException[transport stopped, action: internal:gateway/local/started_shards[n]]
+	... 4 more
+[2016-05-02 23:32:00,648][WARN ][gateway                  ] [Remy LeBeau] [lib][0]: failed to list shard for shard_started on node [Wci1lSITQRi14OFKI558zw]
+FailedNodeException[Failed node [Wci1lSITQRi14OFKI558zw]]; nested: TransportException[transport stopped, action: internal:gateway/local/started_shards[n]];
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.onFailure(TransportNodesAction.java:206)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.access$800(TransportNodesAction.java:106)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction$2.handleException(TransportNodesAction.java:179)
+	at org.elasticsearch.transport.TransportService$2.run(TransportService.java:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: TransportException[transport stopped, action: internal:gateway/local/started_shards[n]]
+	... 4 more
+[2016-05-02 23:32:00,648][WARN ][gateway                  ] [Remy LeBeau] [my][1]: failed to list shard for shard_started on node [Wci1lSITQRi14OFKI558zw]
+FailedNodeException[Failed node [Wci1lSITQRi14OFKI558zw]]; nested: TransportException[transport stopped, action: internal:gateway/local/started_shards[n]];
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.onFailure(TransportNodesAction.java:206)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.access$800(TransportNodesAction.java:106)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction$2.handleException(TransportNodesAction.java:179)
+	at org.elasticsearch.transport.TransportService$2.run(TransportService.java:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: TransportException[transport stopped, action: internal:gateway/local/started_shards[n]]
+	... 4 more
+[2016-05-02 23:32:00,648][WARN ][gateway                  ] [Remy LeBeau] [my][2]: failed to list shard for shard_started on node [Wci1lSITQRi14OFKI558zw]
+FailedNodeException[Failed node [Wci1lSITQRi14OFKI558zw]]; nested: TransportException[transport stopped, action: internal:gateway/local/started_shards[n]];
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.onFailure(TransportNodesAction.java:206)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.access$800(TransportNodesAction.java:106)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction$2.handleException(TransportNodesAction.java:179)
+	at org.elasticsearch.transport.TransportService$2.run(TransportService.java:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: TransportException[transport stopped, action: internal:gateway/local/started_shards[n]]
+	... 4 more
+[2016-05-02 23:32:00,658][WARN ][gateway                  ] [Remy LeBeau] [lib][3]: failed to list shard for shard_started on node [Wci1lSITQRi14OFKI558zw]
+FailedNodeException[Failed node [Wci1lSITQRi14OFKI558zw]]; nested: TransportException[transport stopped, action: internal:gateway/local/started_shards[n]];
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.onFailure(TransportNodesAction.java:206)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.access$800(TransportNodesAction.java:106)
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction$2.handleException(TransportNodesAction.java:179)
+	at org.elasticsearch.transport.TransportService$2.run(TransportService.java:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: TransportException[transport stopped, action: internal:gateway/local/started_shards[n]]
+	... 4 more
+[2016-05-02 23:32:00,654][WARN ][transport                ] [Remy LeBeau] Transport response handler not found of id [17]
+[2016-05-02 23:32:00,668][WARN ][transport                ] [Remy LeBeau] Transport response handler not found of id [14]
+[2016-05-02 23:32:00,691][WARN ][transport                ] [Remy LeBeau] Transport response handler not found of id [15]
+[2016-05-02 23:32:00,756][INFO ][node                     ] [Remy LeBeau] stopped
+[2016-05-02 23:32:00,756][INFO ][node                     ] [Remy LeBeau] closing ...
+[2016-05-02 23:32:00,758][WARN ][transport                ] [Remy LeBeau] Transport response handler not found of id [18]
+[2016-05-02 23:32:00,806][WARN ][transport                ] [Remy LeBeau] Transport response handler not found of id [19]
+[2016-05-02 23:32:00,870][WARN ][transport                ] [Remy LeBeau] Transport response handler not found of id [23]
+[2016-05-02 23:32:00,870][WARN ][transport                ] [Remy LeBeau] Transport response handler not found of id [20]
+[2016-05-02 23:32:00,883][WARN ][transport                ] [Remy LeBeau] Transport response handler not found of id [21]
+[2016-05-02 23:32:00,887][WARN ][transport                ] [Remy LeBeau] Transport response handler not found of id [22]
+[2016-05-02 23:32:01,107][WARN ][transport                ] [Remy LeBeau] Transport response handler not found of id [24]
+[2016-05-02 23:32:01,109][INFO ][node                     ] [Remy LeBeau] closed
+[2016-05-02 23:35:33,309][INFO ][node                     ] [Infant Terrible] version[2.3.2], pid[4671], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-02 23:35:33,310][INFO ][node                     ] [Infant Terrible] initializing ...
+[2016-05-02 23:35:34,783][INFO ][plugins                  ] [Infant Terrible] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-02 23:35:34,846][INFO ][env                      ] [Infant Terrible] using [1] data paths, mounts [[/ (/dev/disk/by-uuid/ea8b11de-1c7e-42ff-920c-7920affc6e86)]], net usable_space [118.7gb], net total_space [142.2gb], spins? [possibly], types [ext4]
+[2016-05-02 23:35:34,847][INFO ][env                      ] [Infant Terrible] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2016-05-02 23:35:39,712][INFO ][node                     ] [Infant Terrible] initialized
+[2016-05-02 23:35:39,714][INFO ][node                     ] [Infant Terrible] starting ...
+[2016-05-02 23:35:39,872][INFO ][transport                ] [Infant Terrible] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2016-05-02 23:35:39,904][INFO ][discovery                ] [Infant Terrible] elasticsearch/hs2eb1QiRU-xstRShqY4hQ
+[2016-05-02 23:35:43,029][INFO ][cluster.service          ] [Infant Terrible] new_master {Infant Terrible}{hs2eb1QiRU-xstRShqY4hQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-02 23:35:43,082][ERROR][bootstrap                ] [Infant Terrible] Exception
+BindHttpException[Failed to bind to [9300]]; nested: ChannelException[Failed to bind to: /0:0:0:0:0:0:0:1%lo:9300]; nested: BindException[Address already in use];
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.bindAddress(NettyHttpServerTransport.java:389)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.createBoundHttpAddress(NettyHttpServerTransport.java:287)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.doStart(NettyHttpServerTransport.java:273)
+	at org.elasticsearch.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:68)
+	at org.elasticsearch.http.HttpServer.doStart(HttpServer.java:92)
+	at org.elasticsearch.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:68)
+	at org.elasticsearch.node.Node.start(Node.java:289)
+	at org.elasticsearch.bootstrap.Bootstrap.start(Bootstrap.java:206)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:272)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+Caused by: org.jboss.netty.channel.ChannelException: Failed to bind to: /0:0:0:0:0:0:0:1%lo:9300
+	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:272)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport$1.onPortNumber(NettyHttpServerTransport.java:377)
+	at org.elasticsearch.common.transport.PortsRange.iterate(PortsRange.java:58)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.bindAddress(NettyHttpServerTransport.java:372)
+	... 9 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.jboss.netty.channel.socket.nio.NioServerBoss$RegisterTask.run(NioServerBoss.java:193)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.processTaskQueue(AbstractNioSelector.java:391)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:315)
+	at org.jboss.netty.channel.socket.nio.NioServerBoss.run(NioServerBoss.java:42)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-05-02 23:35:43,180][INFO ][node                     ] [Infant Terrible] stopping ...
+[2016-05-02 23:35:43,535][INFO ][gateway                  ] [Infant Terrible] recovered [3] indices into cluster_state
+[2016-05-02 23:35:43,554][INFO ][node                     ] [Infant Terrible] stopped
+[2016-05-02 23:35:43,555][INFO ][node                     ] [Infant Terrible] closing ...
+[2016-05-02 23:35:43,568][INFO ][node                     ] [Infant Terrible] closed
+[2016-05-02 23:36:34,704][INFO ][node                     ] [Fan Boy] version[2.3.2], pid[4770], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-02 23:36:34,705][INFO ][node                     ] [Fan Boy] initializing ...
+[2016-05-02 23:36:35,897][INFO ][plugins                  ] [Fan Boy] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-02 23:36:35,941][INFO ][env                      ] [Fan Boy] using [1] data paths, mounts [[/ (/dev/disk/by-uuid/ea8b11de-1c7e-42ff-920c-7920affc6e86)]], net usable_space [118.7gb], net total_space [142.2gb], spins? [possibly], types [ext4]
+[2016-05-02 23:36:35,941][INFO ][env                      ] [Fan Boy] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2016-05-02 23:36:40,722][INFO ][node                     ] [Fan Boy] initialized
+[2016-05-02 23:36:40,723][INFO ][node                     ] [Fan Boy] starting ...
+[2016-05-02 23:36:40,934][INFO ][transport                ] [Fan Boy] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2016-05-02 23:36:40,945][INFO ][discovery                ] [Fan Boy] elasticsearch/yAjm4NRgRryrX5IEeR2ZuQ
+[2016-05-02 23:36:44,094][INFO ][cluster.service          ] [Fan Boy] new_master {Fan Boy}{yAjm4NRgRryrX5IEeR2ZuQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-02 23:36:44,143][INFO ][http                     ] [Fan Boy] publish_address {127.0.0.1:9201}, bound_addresses {[::1]:9201}, {127.0.0.1:9201}
+[2016-05-02 23:36:44,144][INFO ][node                     ] [Fan Boy] started
+[2016-05-02 23:36:44,787][INFO ][gateway                  ] [Fan Boy] recovered [3] indices into cluster_state
+[2016-05-02 23:36:49,890][INFO ][cluster.routing.allocation] [Fan Boy] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[lib][2]] ...]).
+[2016-05-02 23:37:25,143][INFO ][node                     ] [Fan Boy] stopping ...
+[2016-05-02 23:37:25,349][INFO ][node                     ] [Fan Boy] stopped
+[2016-05-02 23:37:25,349][INFO ][node                     ] [Fan Boy] closing ...
+[2016-05-02 23:37:25,364][INFO ][node                     ] [Fan Boy] closed
+[2016-05-02 23:37:30,002][INFO ][node                     ] [Doppelganger] version[2.3.2], pid[4864], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-05-02 23:37:30,003][INFO ][node                     ] [Doppelganger] initializing ...
+[2016-05-02 23:37:31,155][INFO ][plugins                  ] [Doppelganger] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-05-02 23:37:31,207][INFO ][env                      ] [Doppelganger] using [1] data paths, mounts [[/ (/dev/disk/by-uuid/ea8b11de-1c7e-42ff-920c-7920affc6e86)]], net usable_space [118.7gb], net total_space [142.2gb], spins? [possibly], types [ext4]
+[2016-05-02 23:37:31,207][INFO ][env                      ] [Doppelganger] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2016-05-02 23:37:35,406][INFO ][node                     ] [Doppelganger] initialized
+[2016-05-02 23:37:35,407][INFO ][node                     ] [Doppelganger] starting ...
+[2016-05-02 23:37:35,628][INFO ][transport                ] [Doppelganger] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2016-05-02 23:37:35,639][INFO ][discovery                ] [Doppelganger] elasticsearch/0VpWhEzdRD2tO5rxjUoV8g
+[2016-05-02 23:37:38,852][INFO ][cluster.service          ] [Doppelganger] new_master {Doppelganger}{0VpWhEzdRD2tO5rxjUoV8g}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-05-02 23:37:38,911][INFO ][http                     ] [Doppelganger] publish_address {127.0.0.1:9123}, bound_addresses {[::1]:9123}, {127.0.0.1:9123}
+[2016-05-02 23:37:38,912][INFO ][node                     ] [Doppelganger] started
+[2016-05-02 23:37:39,333][INFO ][gateway                  ] [Doppelganger] recovered [3] indices into cluster_state
+[2016-05-02 23:37:42,765][INFO ][cluster.routing.allocation] [Doppelganger] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[lib][4], [lib][1]] ...]).

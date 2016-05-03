@@ -1,0 +1,21 @@
+[2016-04-28 00:12:26,725][INFO ][node                     ] [Scimitar] stopping ...
+[2016-04-28 00:12:26,767][INFO ][node                     ] [Scimitar] stopped
+[2016-04-28 00:12:26,767][INFO ][node                     ] [Scimitar] closing ...
+[2016-04-28 00:12:26,782][INFO ][node                     ] [Scimitar] closed
+[2016-04-28 00:12:51,535][INFO ][node                     ] [St. John Allerdyce] version[2.3.2], pid[4223], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-04-28 00:12:51,536][INFO ][node                     ] [St. John Allerdyce] initializing ...
+[2016-04-28 00:12:52,604][INFO ][plugins                  ] [St. John Allerdyce] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-28 00:12:52,647][INFO ][env                      ] [St. John Allerdyce] using [1] data paths, mounts [[/ (/dev/disk/by-uuid/ea8b11de-1c7e-42ff-920c-7920affc6e86)]], net usable_space [118.4gb], net total_space [142.2gb], spins? [possibly], types [ext4]
+[2016-04-28 00:12:52,647][INFO ][env                      ] [St. John Allerdyce] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2016-04-28 00:12:56,470][INFO ][node                     ] [St. John Allerdyce] initialized
+[2016-04-28 00:12:56,470][INFO ][node                     ] [St. John Allerdyce] starting ...
+[2016-04-28 00:12:56,736][INFO ][transport                ] [St. John Allerdyce] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2016-04-28 00:12:56,758][INFO ][discovery                ] [St. John Allerdyce] elasticsearch/MDi5aUX3R32Gd1A0tqjR-w
+[2016-04-28 00:12:59,885][INFO ][cluster.service          ] [St. John Allerdyce] new_master {St. John Allerdyce}{MDi5aUX3R32Gd1A0tqjR-w}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-28 00:12:59,920][INFO ][http                     ] [St. John Allerdyce] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2016-04-28 00:12:59,921][INFO ][node                     ] [St. John Allerdyce] started
+[2016-04-28 00:13:00,021][INFO ][gateway                  ] [St. John Allerdyce] recovered [0] indices into cluster_state
+[2016-04-28 01:09:17,878][INFO ][node                     ] [St. John Allerdyce] stopping ...
+[2016-04-28 01:09:17,933][INFO ][node                     ] [St. John Allerdyce] stopped
+[2016-04-28 01:09:17,934][INFO ][node                     ] [St. John Allerdyce] closing ...
+[2016-04-28 01:09:17,949][INFO ][node                     ] [St. John Allerdyce] closed

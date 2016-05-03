@@ -1,0 +1,70 @@
+[2016-04-30 08:44:07,431][INFO ][node                     ] [Bastion] version[2.3.2], pid[20702], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-04-30 08:44:07,433][INFO ][node                     ] [Bastion] initializing ...
+[2016-04-30 08:44:09,424][INFO ][plugins                  ] [Bastion] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-30 08:44:09,636][INFO ][env                      ] [Bastion] using [1] data paths, mounts [[/ (/dev/disk/by-uuid/ea8b11de-1c7e-42ff-920c-7920affc6e86)]], net usable_space [118.4gb], net total_space [142.2gb], spins? [possibly], types [ext4]
+[2016-04-30 08:44:09,636][INFO ][env                      ] [Bastion] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2016-04-30 08:44:16,918][INFO ][node                     ] [Bastion] initialized
+[2016-04-30 08:44:16,918][INFO ][node                     ] [Bastion] starting ...
+[2016-04-30 08:44:17,381][INFO ][transport                ] [Bastion] publish_address {127.0.0.1:9301}, bound_addresses {[::1]:9301}, {127.0.0.1:9301}
+[2016-04-30 08:44:17,421][INFO ][discovery                ] [Bastion] elasticsearch/tHeb0yj5R_GcPGOYFS0V8w
+[2016-04-30 08:44:21,514][WARN ][discovery.zen.ping.unicast] [Bastion] failed to send ping to [{#zen_unicast_6#}{::1}{[::1]:9300}]
+ReceiveTimeoutTransportException[[][[::1]:9300][internal:discovery/zen/unicast] request_id [3] timed out after [3750ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-30 08:44:21,516][WARN ][discovery.zen.ping.unicast] [Bastion] failed to send ping to [{#zen_unicast_1#}{127.0.0.1}{127.0.0.1:9300}]
+ReceiveTimeoutTransportException[[][127.0.0.1:9300][internal:discovery/zen/unicast] request_id [4] timed out after [3750ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-30 08:44:22,026][INFO ][cluster.service          ] [Bastion] new_master {Bastion}{tHeb0yj5R_GcPGOYFS0V8w}{127.0.0.1}{127.0.0.1:9301}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-30 08:44:22,055][INFO ][http                     ] [Bastion] publish_address {127.0.0.1:9201}, bound_addresses {[::1]:9201}, {127.0.0.1:9201}
+[2016-04-30 08:44:22,060][INFO ][node                     ] [Bastion] started
+[2016-04-30 08:44:22,225][INFO ][gateway                  ] [Bastion] recovered [0] indices into cluster_state
+[2016-04-30 08:46:39,065][INFO ][node                     ] [Arnim Zola] version[2.3.2], pid[20838], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-04-30 08:46:39,066][INFO ][node                     ] [Arnim Zola] initializing ...
+[2016-04-30 08:46:40,331][INFO ][plugins                  ] [Arnim Zola] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-30 08:46:40,406][INFO ][env                      ] [Arnim Zola] using [1] data paths, mounts [[/ (/dev/disk/by-uuid/ea8b11de-1c7e-42ff-920c-7920affc6e86)]], net usable_space [118.4gb], net total_space [142.2gb], spins? [possibly], types [ext4]
+[2016-04-30 08:46:40,407][INFO ][env                      ] [Arnim Zola] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2016-04-30 08:46:44,733][INFO ][node                     ] [Arnim Zola] initialized
+[2016-04-30 08:46:44,734][INFO ][node                     ] [Arnim Zola] starting ...
+[2016-04-30 08:46:44,889][INFO ][transport                ] [Arnim Zola] publish_address {127.0.0.1:9302}, bound_addresses {[::1]:9302}, {127.0.0.1:9302}
+[2016-04-30 08:46:44,908][INFO ][discovery                ] [Arnim Zola] elasticsearch/lE3G3bq-QC6DzaClnf3d0w
+[2016-04-30 08:46:48,832][WARN ][discovery.zen.ping.unicast] [Arnim Zola] failed to send ping to [{#zen_unicast_1#}{127.0.0.1}{127.0.0.1:9300}]
+ReceiveTimeoutTransportException[[][127.0.0.1:9300][internal:discovery/zen/unicast] request_id [2] timed out after [3750ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-30 08:46:48,846][WARN ][discovery.zen.ping.unicast] [Arnim Zola] failed to send ping to [{#zen_unicast_2#}{127.0.0.1}{127.0.0.1:9301}]
+ReceiveTimeoutTransportException[[][127.0.0.1:9301][internal:discovery/zen/unicast] request_id [3] timed out after [3750ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-30 08:46:48,847][WARN ][discovery.zen.ping.unicast] [Arnim Zola] failed to send ping to [{#zen_unicast_7#}{::1}{[::1]:9301}]
+ReceiveTimeoutTransportException[[][[::1]:9301][internal:discovery/zen/unicast] request_id [4] timed out after [3751ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-30 08:46:48,856][WARN ][discovery.zen.ping.unicast] [Arnim Zola] failed to send ping to [{#zen_unicast_6#}{::1}{[::1]:9300}]
+ReceiveTimeoutTransportException[[][[::1]:9300][internal:discovery/zen/unicast] request_id [6] timed out after [3754ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-30 08:46:49,533][INFO ][cluster.service          ] [Arnim Zola] new_master {Arnim Zola}{lE3G3bq-QC6DzaClnf3d0w}{127.0.0.1}{127.0.0.1:9302}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-30 08:46:49,586][INFO ][http                     ] [Arnim Zola] publish_address {127.0.0.1:9202}, bound_addresses {[::1]:9202}, {127.0.0.1:9202}
+[2016-04-30 08:46:49,586][INFO ][node                     ] [Arnim Zola] started
+[2016-04-30 08:46:49,713][INFO ][gateway                  ] [Arnim Zola] recovered [0] indices into cluster_state
+[2016-04-30 08:53:54,521][INFO ][node                     ] [Arnim Zola] stopping ...
+[2016-04-30 08:53:54,563][INFO ][node                     ] [Bastion] stopping ...
+[2016-04-30 08:53:56,672][INFO ][node                     ] [Bastion] stopped
+[2016-04-30 08:53:56,840][INFO ][node                     ] [Bastion] closing ...
+[2016-04-30 08:53:56,672][INFO ][node                     ] [Arnim Zola] stopped
+[2016-04-30 08:53:56,841][INFO ][node                     ] [Arnim Zola] closing ...
+[2016-04-30 08:53:56,858][INFO ][node                     ] [Arnim Zola] closed
+[2016-04-30 08:53:56,869][INFO ][node                     ] [Bastion] closed

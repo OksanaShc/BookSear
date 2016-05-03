@@ -1,0 +1,224 @@
+[2016-04-30 08:54:15,871][INFO ][node                     ] [Byrrah] stopping ...
+[2016-04-30 08:54:27,767][INFO ][node                     ] [Byrrah] stopped
+[2016-04-30 08:54:27,767][INFO ][node                     ] [Byrrah] closing ...
+[2016-04-30 08:54:28,910][INFO ][node                     ] [Byrrah] closed
+[2016-04-30 09:01:41,565][INFO ][node                     ] [Chase Stein] version[2.3.2], pid[1935], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-04-30 09:01:41,582][INFO ][node                     ] [Chase Stein] initializing ...
+[2016-04-30 09:01:43,347][INFO ][plugins                  ] [Chase Stein] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-30 09:01:43,468][INFO ][env                      ] [Chase Stein] using [1] data paths, mounts [[/ (/dev/disk/by-uuid/ea8b11de-1c7e-42ff-920c-7920affc6e86)]], net usable_space [118.4gb], net total_space [142.2gb], spins? [possibly], types [ext4]
+[2016-04-30 09:01:43,468][INFO ][env                      ] [Chase Stein] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2016-04-30 09:01:49,301][INFO ][node                     ] [Chase Stein] initialized
+[2016-04-30 09:01:49,311][INFO ][node                     ] [Chase Stein] starting ...
+[2016-04-30 09:01:49,626][INFO ][transport                ] [Chase Stein] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2016-04-30 09:01:49,648][INFO ][discovery                ] [Chase Stein] elasticsearch/N7G8EZ_qTy-4sG4c3umXLg
+[2016-04-30 09:01:52,761][INFO ][cluster.service          ] [Chase Stein] new_master {Chase Stein}{N7G8EZ_qTy-4sG4c3umXLg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-30 09:01:52,786][INFO ][http                     ] [Chase Stein] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2016-04-30 09:01:52,786][INFO ][node                     ] [Chase Stein] started
+[2016-04-30 09:01:52,941][INFO ][gateway                  ] [Chase Stein] recovered [0] indices into cluster_state
+[2016-04-30 09:04:27,972][INFO ][cluster.metadata         ] [Chase Stein] [lib] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [book]
+[2016-04-30 09:04:29,350][INFO ][cluster.routing.allocation] [Chase Stein] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[lib][4], [lib][4]] ...]).
+[2016-04-30 09:04:29,445][INFO ][cluster.metadata         ] [Chase Stein] [lib] update_mapping [book]
+[2016-04-30 09:17:49,485][INFO ][node                     ] [Chase Stein] stopping ...
+[2016-04-30 09:17:49,847][INFO ][node                     ] [Chase Stein] stopped
+[2016-04-30 09:17:49,847][INFO ][node                     ] [Chase Stein] closing ...
+[2016-04-30 09:17:49,898][INFO ][node                     ] [Chase Stein] closed
+[2016-04-30 09:27:04,673][INFO ][node                     ] [Volcana] version[2.3.2], pid[2246], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-04-30 09:27:04,691][INFO ][node                     ] [Volcana] initializing ...
+[2016-04-30 09:27:06,447][INFO ][plugins                  ] [Volcana] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-30 09:27:06,592][INFO ][env                      ] [Volcana] using [1] data paths, mounts [[/ (/dev/disk/by-uuid/ea8b11de-1c7e-42ff-920c-7920affc6e86)]], net usable_space [118.4gb], net total_space [142.2gb], spins? [possibly], types [ext4]
+[2016-04-30 09:27:06,593][INFO ][env                      ] [Volcana] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2016-04-30 09:27:12,495][INFO ][node                     ] [Volcana] initialized
+[2016-04-30 09:27:12,496][INFO ][node                     ] [Volcana] starting ...
+[2016-04-30 09:27:12,807][INFO ][transport                ] [Volcana] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2016-04-30 09:27:12,831][INFO ][discovery                ] [Volcana] elasticsearch/YmccuTwFQeu2yq1UYjjNew
+[2016-04-30 09:27:15,966][INFO ][cluster.service          ] [Volcana] new_master {Volcana}{YmccuTwFQeu2yq1UYjjNew}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-30 09:27:15,989][INFO ][http                     ] [Volcana] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2016-04-30 09:27:15,990][INFO ][node                     ] [Volcana] started
+[2016-04-30 09:27:16,473][INFO ][gateway                  ] [Volcana] recovered [1] indices into cluster_state
+[2016-04-30 09:27:18,114][INFO ][cluster.routing.allocation] [Volcana] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[lib][0]] ...]).
+[2016-04-30 10:15:22,223][DEBUG][action.index             ] . to play on the weaknesses of human nature, then on the weaknesses of nations--to get together and control a vast organization, and finally to overthrow the existing order, and rule! the thought intoxicated me....\n\n \". . . i saw that i must lead two lives. a man like myself is bound to attract notice. i must have a successful career which would mask my true activities.... also i must cultivate a personality. i modelled myself upon famous k.c.'s. i reproduced their mannerisms, their magnetism. if i had chosen to be an actor, i should have been the greatest actor living! no disguises--no grease paint--no false beards! personality! i put it on like a glove! when i shed it, i was myself, quiet, unobtrusive, a man like every other man. i called myself mr. brown. there are hundreds of men called brown--there are hundreds of men looking just like me....\n\n \". . . i succeeded in my false career. i was bound to succeed. i shall succeed in the other. a man like me cannot fail....\n\n \". . . i have been reading a life of napoleon. he and i have much in common....\n\n \". . . i make a practice of defending criminals. a man should look after his own people....\n\n \". . . once or twice i have felt afraid. the first time was in italy. there was a dinner given. professor d----, the great alienist, was present. the talk fell on insanity. he said, 'a great many men are mad, and no one knows it. they do not know it themselves.' i do not understand why he looked at me when he said that. his glance was strange.... i did not like it....\n\n \". . . the war has disturbed me.... i thought it would further my plans. the germans are so efficient. their spy system, too, was excellent. the streets are full of these boys in khaki. all empty-headed young fools.... yet i do not know.... they won the war.... it disturbs me....\n\n \". . . my plans are going well.... a girl butted in--i do not think she really knew anything.... but we must give up the esthonia.... no risks now....\n\n \". . . . all goes well. the loss of memory is vexing. it cannot be a fake. no girl could deceive me! . . .\n\n \". . .the 29th.... that is very soon....\" mr. carter paused.\n\n \"i will not read the details of the coup that was planned. but there are just two small entries that refer to the three of you. in the light of what happened they are interesting.\n\n \". . . by inducing the girl to come to me of her own accord, i have succeeded in disarming her. but she has intuitive flashes that might be dangerous.... she must be got out of the way.... i can do nothing with the american. he suspects and dislikes me. but he cannot know. i fancy my armour is impregnable.... sometimes i fear i have underestimated the other boy. he is not clever, but it is hard to blind his eyes to facts....\"\n\n mr. carter shut the book.\n\n \"a great man,\" he said. \"genius, or insanity, who can say?\"\n\n there was silence.\n\n then mr. carter rose to his feet.\n\n \"i will give you a toast. the joint venture which has so amply justified itself by success!\"\n\n it was drunk with acclamation.\n\n \"there's something more we want to hear,\" continued mr. carter. he looked at the american ambassador. \"i speak for you also, i know. we'll ask miss jane finn to tell us the story that only miss tuppence has heard so far--but before we do so we'll drink her health. the health of one of the bravest of america's daughters, to whom is due the thanks and gratitude of two great countries!\" \n\n ", "28": " xxviii\n\n and after\n\n \"that was a mighty good toast, jane,\" said mr. hersheimmer, as he and his cousin were being driven back in the rolls-royce to the ritz.\n\n \"the one to the joint venture?\"\n\n \"no--the one to you. there isn't another girl in the world who could have carried it through as you did. you were just wonderful! \"\n\n jane shook her head.\n\n \"i don't feel wonderful. at heart i'm just tired and lonesome--and longing for my own country.\"\n\n \"that brings me to something i wanted to say. i heard the ambassador telling you his wife hoped you would come to them at the embassy right away. that's good enough, but i've got another plan. jane--i want you to marry me! don't get scared and say no at once. you can't love me right away, of course, that's impossible. but i've loved you from the very moment i set eyes on your photo--and now i've seen you i'm simply crazy about you! if you'll only marry me, i won't worry you any--you shall take your own time. maybe you'll never come to love me, and if that's the case i'll manage to set you free. but i want the right to look after you, and take care of you.\"\n\n \"that's what i want,\" said the girl wistfully. \"some one who'll be good to me. oh, you don't know how lonesome i feel!\"\n\n \"sure thing i do. then i guess that's all fixed up, and i'll see the archbishop about a special license to-morrow morning.\"\n\n \"oh, julius!\"\n\n \"well, i don't want to hustle you any, jane, but there's no sense in waiting about. don't be scared--i shan't expect you to love me all at once.\"\n\n but a small hand was slipped into his.\n\n \"i love you now, julius,\" said jane finn. \"i loved you that first moment in the car when the bullet grazed your cheek....\"\n\n five minutes later jane murmured softly:\n\n \"i don't know london very well, julius, but is it such a very long way from the savoy to the ritz?\"\n\n \"it depends how you go,\" explained julius unblushingly. \"we're going by way of regent's park!\"\n\n \"oh, julius--what will the chauffeur think?\"\n\n \"at the wages i pay him, he knows better than to do any independent thinking. why, jane, the only reason i had the supper at the savoy was so that i could drive you home. i didn't see how i was ever going to get hold of you alone. you and tuppence have been sticking together like siamese twins. i guess another day of it would have driven me and beresford stark staring mad!\"\n\n \"oh. is he----?\"\n\n \"of course he is. head over ears.\"\n\n \"i thought so,\" said jane thoughtfully.\n\n \"why?\"\n\n \"from all the things tuppence didn't say!\"\n\n \"there you have me beat,\" said mr. hersheimmer. but jane only laughed.\n\n in the meantime, the young adventurers were sitting bolt upright, very stiff and ill at ease, in a taxi which, with a singular lack of originality, was also returning to the ritz via regent's park.\n\n a terrible constraint seemed to have settled down between them. without quite knowing what had happened, everything seemed changed. they were tongue-tied--paralysed. all the old camaraderie was gone.\n\n tuppence could think of nothing to say.\n\n tommy was equally afflicted.\n\n they sat very straight and forbore to look at each other.\n\n at last tuppence made a desperate effort.\n\n \"rather fun, wasn't it?\"\n\n \"rather.\"\n\n another silence.\n\n \"i like julius,\" essayed tuppence again.\n\n tommy was suddenly galvanized into life.\n\n \"you're not going to marry him, do you hear?\" he said dictatorially. \"i forbid it.\"\n\n \"oh!\" said tuppence meekly.\n\n \"absolutely, you understand.\"\n\n \"he doesn't want to marry me--he really only asked me out of kindness.\"\n\n \"that's not very likely,\" scoffed tommy.\n\n \"it's quite true. he's head over ears in love with jane. i expect he's proposing to her now.\"\n\n \"she'll do for him very nicely,\" said tommy condescendingly.\n\n \"don't you think she's the most lovely creature you've ever seen?\"\n\n \"oh, i dare say.\"\n\n \"but i suppose you prefer sterling worth,\" said tuppence demurely.\n\n \"i--oh, dash it all, tuppence, you know!\"\n\n \"i like your uncle, tommy,\" said tuppence, hastily creating a diversion. \"by the way, what are you going to do, accept mr. carter's offer of a government job, or accept julius's invitation and take a richly remunerated post in america on his ranch?\"\n\n \"i shall stick to the old ship, i think, though it's awfully good of hersheimmer. but i feel you'd be more at home in london.\"\n\n \"i don't see where i come in.\"\n\n \"i do,\" said tommy positively.\n\n tuppence stole a glance at him sideways.\n\n \"there's the money, too,\" she observed thoughtfully.\n\n \"what money?\"\n\n \"we're going to get a cheque each. mr. carter told me so.\"\n\n \"did you ask how much?\" inquired tommy sarcastically.\n\n \"yes,\" said tuppence triumphantly. \"but i shan't tell you.\"\n\n \"tuppence, you are the limit!\"\n\n \"it has been fun, hasn't it, tommy? i do hope we shall have lots more adventures.\"\n\n \"you're insatiable, tuppence. i've had quite enough adventures for the present.\"\n\n \"well, shopping is almost as good,\" said tuppence dreamily.\n\n \"think of buying old furniture, and bright carpets, and futurist silk curtains, and a polished dining-table, and a divan with lots of cushions \"\n\n \"hold hard,\" said tommy. \"what's all this for?\"\n\n \"possibly a house--but i think a flat.\"\n\n \"whose flat?\"\n\n \"you think i mind saying it, but i don't in the least! ours, so there!\"\n\n \"you darling!\" cried tommy, his arms tightly round her. \"i was determined to make you say it. i owe you something for the relentless way you've squashed me whenever i've tried to be sentimental.\"\n\n tuppence raised her face to his. the taxi proceeded on its course round the north side of regent's park.\n\n \"you haven't really proposed now,\" pointed out tuppence. \"not what our grandmothers would call a proposal. but after listening to a rotten one like julius's, i'm inclined to let you off.\"\n\n \"you won't be able to get out of marrying me, so don't you think it.\"\n\n \"what fun it will be,\" responded tuppence. \"marriage is called all sorts of things, a haven, and a refuge, and a crowning glory, and a state of bondage, and lots more. but do you know what i think it is?\"\n\n \"what?\"\n\n \"a sport!\"\n\n \"and a damned good sport too,\" said tommy.\n\n \n\n \n\n \n\n a free ebook from http://manybooks.net/"}, "name": "The_Secret_Adversary.txt"}]}] on [[lib][3]]
+MapperParsingException[failed to parse [text]]; nested: IllegalArgumentException[unknown property [0]];
+	at org.elasticsearch.index.mapper.FieldMapper.parse(FieldMapper.java:329)
+	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrField(DocumentParser.java:309)
+	at org.elasticsearch.index.mapper.DocumentParser.parseObject(DocumentParser.java:326)
+	at org.elasticsearch.index.mapper.DocumentParser.parseObject(DocumentParser.java:252)
+	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:122)
+	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:309)
+	at org.elasticsearch.index.shard.IndexShard.prepareIndex(IndexShard.java:580)
+	at org.elasticsearch.index.shard.IndexShard.prepareIndexOnPrimary(IndexShard.java:559)
+	at org.elasticsearch.action.index.TransportIndexAction.prepareIndexOperationOnPrimary(TransportIndexAction.java:212)
+	at org.elasticsearch.action.index.TransportIndexAction.executeIndexRequestOnPrimary(TransportIndexAction.java:224)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:158)
+	at org.elasticsearch.action.index.TransportIndexAction.shardOperationOnPrimary(TransportIndexAction.java:66)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryPhase.doRun(TransportReplicationAction.java:639)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:279)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$PrimaryOperationTransportHandler.messageReceived(TransportReplicationAction.java:271)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:75)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:376)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: unknown property [0]
+	at org.elasticsearch.index.mapper.core.StringFieldMapper.parseCreateFieldForString(StringFieldMapper.java:362)
+	at org.elasticsearch.index.mapper.core.StringFieldMapper.parseCreateField(StringFieldMapper.java:311)
+	at org.elasticsearch.index.mapper.FieldMapper.parse(FieldMapper.java:321)
+	... 21 more
+[2016-04-30 10:17:07,998][INFO ][cluster.metadata         ] [Volcana] [lib] update_mapping [book]
+[2016-04-30 10:37:10,192][INFO ][cluster.metadata         ] [Volcana] [lib] update_mapping [book]
+[2016-04-30 11:41:57,028][INFO ][node                     ] [Volcana] stopping ...
+[2016-04-30 11:41:57,406][INFO ][node                     ] [Volcana] stopped
+[2016-04-30 11:41:57,406][INFO ][node                     ] [Volcana] closing ...
+[2016-04-30 11:41:57,418][INFO ][node                     ] [Volcana] closed
+[2016-04-30 13:30:49,615][INFO ][node                     ] [Paris] version[2.3.2], pid[5656], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-04-30 13:30:49,636][INFO ][node                     ] [Paris] initializing ...
+[2016-04-30 13:30:51,598][INFO ][plugins                  ] [Paris] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-30 13:30:51,708][INFO ][env                      ] [Paris] using [1] data paths, mounts [[/ (/dev/disk/by-uuid/ea8b11de-1c7e-42ff-920c-7920affc6e86)]], net usable_space [118.4gb], net total_space [142.2gb], spins? [possibly], types [ext4]
+[2016-04-30 13:30:51,708][INFO ][env                      ] [Paris] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2016-04-30 13:30:57,518][INFO ][node                     ] [Paris] initialized
+[2016-04-30 13:30:57,519][INFO ][node                     ] [Paris] starting ...
+[2016-04-30 13:30:57,857][INFO ][transport                ] [Paris] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2016-04-30 13:30:57,880][INFO ][discovery                ] [Paris] elasticsearch/v95bNGNxSdyouOiCdhH-Uw
+[2016-04-30 13:31:00,999][INFO ][cluster.service          ] [Paris] new_master {Paris}{v95bNGNxSdyouOiCdhH-Uw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-30 13:31:01,023][INFO ][http                     ] [Paris] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2016-04-30 13:31:01,023][INFO ][node                     ] [Paris] started
+[2016-04-30 13:31:01,589][INFO ][gateway                  ] [Paris] recovered [1] indices into cluster_state
+[2016-04-30 13:31:04,137][INFO ][cluster.routing.allocation] [Paris] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[lib][2]] ...]).
+[2016-04-30 13:31:16,999][INFO ][cluster.metadata         ] [Paris] [lib] update_mapping [book]
+[2016-04-30 13:31:56,875][INFO ][cluster.metadata         ] [Paris] [my] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [book]
+[2016-04-30 13:31:57,852][INFO ][cluster.routing.allocation] [Paris] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[my][4]] ...]).
+[2016-04-30 13:31:57,958][INFO ][cluster.metadata         ] [Paris] [my] update_mapping [book]
+[2016-04-30 14:17:53,692][INFO ][node                     ] [Alistaire Stuart] version[2.3.2], pid[7384], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-04-30 14:17:53,693][INFO ][node                     ] [Alistaire Stuart] initializing ...
+[2016-04-30 14:17:54,806][INFO ][plugins                  ] [Alistaire Stuart] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-30 14:17:54,877][INFO ][env                      ] [Alistaire Stuart] using [1] data paths, mounts [[/ (/dev/disk/by-uuid/ea8b11de-1c7e-42ff-920c-7920affc6e86)]], net usable_space [118.4gb], net total_space [142.2gb], spins? [possibly], types [ext4]
+[2016-04-30 14:17:54,877][INFO ][env                      ] [Alistaire Stuart] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2016-04-30 14:17:58,106][INFO ][node                     ] [Alistaire Stuart] initialized
+[2016-04-30 14:17:58,108][INFO ][node                     ] [Alistaire Stuart] starting ...
+[2016-04-30 14:17:58,248][INFO ][transport                ] [Alistaire Stuart] publish_address {127.0.0.1:9301}, bound_addresses {[::1]:9301}, {127.0.0.1:9301}
+[2016-04-30 14:17:58,263][INFO ][discovery                ] [Alistaire Stuart] elasticsearch/2fsOFVRhQ0OgCUoZRgoiuA
+[2016-04-30 14:18:02,201][WARN ][discovery.zen.ping.unicast] [Alistaire Stuart] failed to send ping to [{#zen_unicast_1#}{127.0.0.1}{127.0.0.1:9300}]
+ReceiveTimeoutTransportException[[][127.0.0.1:9300][internal:discovery/zen/unicast] request_id [3] timed out after [3750ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-30 14:18:02,206][WARN ][discovery.zen.ping.unicast] [Alistaire Stuart] failed to send ping to [{#zen_unicast_6#}{::1}{[::1]:9300}]
+ReceiveTimeoutTransportException[[][[::1]:9300][internal:discovery/zen/unicast] request_id [4] timed out after [3751ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-30 14:18:02,864][INFO ][cluster.service          ] [Alistaire Stuart] new_master {Alistaire Stuart}{2fsOFVRhQ0OgCUoZRgoiuA}{127.0.0.1}{127.0.0.1:9301}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-30 14:18:02,909][INFO ][http                     ] [Alistaire Stuart] publish_address {127.0.0.1:9201}, bound_addresses {[::1]:9201}, {127.0.0.1:9201}
+[2016-04-30 14:18:02,910][INFO ][node                     ] [Alistaire Stuart] started
+[2016-04-30 14:18:02,999][INFO ][gateway                  ] [Alistaire Stuart] recovered [0] indices into cluster_state
+[2016-04-30 14:19:39,578][INFO ][node                     ] [Anti-Cap] version[2.3.2], pid[7480], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-04-30 14:19:39,580][INFO ][node                     ] [Anti-Cap] initializing ...
+[2016-04-30 14:19:40,642][INFO ][plugins                  ] [Anti-Cap] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-30 14:19:40,705][INFO ][env                      ] [Anti-Cap] using [1] data paths, mounts [[/ (/dev/disk/by-uuid/ea8b11de-1c7e-42ff-920c-7920affc6e86)]], net usable_space [118.4gb], net total_space [142.2gb], spins? [possibly], types [ext4]
+[2016-04-30 14:19:40,705][INFO ][env                      ] [Anti-Cap] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2016-04-30 14:19:44,216][INFO ][node                     ] [Anti-Cap] initialized
+[2016-04-30 14:19:44,216][INFO ][node                     ] [Anti-Cap] starting ...
+[2016-04-30 14:19:44,457][INFO ][transport                ] [Anti-Cap] publish_address {127.0.0.1:9302}, bound_addresses {[::1]:9302}, {127.0.0.1:9302}
+[2016-04-30 14:19:44,471][INFO ][discovery                ] [Anti-Cap] elasticsearch/MLkwKNGVQgqvBRRmshAOkg
+[2016-04-30 14:19:48,437][WARN ][discovery.zen.ping.unicast] [Anti-Cap] failed to send ping to [{#zen_unicast_2#}{127.0.0.1}{127.0.0.1:9301}]
+ReceiveTimeoutTransportException[[][127.0.0.1:9301][internal:discovery/zen/unicast] request_id [2] timed out after [3750ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-30 14:19:48,442][WARN ][discovery.zen.ping.unicast] [Anti-Cap] failed to send ping to [{#zen_unicast_7#}{::1}{[::1]:9301}]
+ReceiveTimeoutTransportException[[][[::1]:9301][internal:discovery/zen/unicast] request_id [3] timed out after [3750ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-30 14:19:48,482][WARN ][discovery.zen.ping.unicast] [Anti-Cap] failed to send ping to [{#zen_unicast_1#}{127.0.0.1}{127.0.0.1:9300}]
+ReceiveTimeoutTransportException[[][127.0.0.1:9300][internal:discovery/zen/unicast] request_id [4] timed out after [3750ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-30 14:19:48,487][WARN ][discovery.zen.ping.unicast] [Anti-Cap] failed to send ping to [{#zen_unicast_6#}{::1}{[::1]:9300}]
+ReceiveTimeoutTransportException[[][[::1]:9300][internal:discovery/zen/unicast] request_id [5] timed out after [3756ms]]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-30 14:19:49,121][INFO ][cluster.service          ] [Anti-Cap] new_master {Anti-Cap}{MLkwKNGVQgqvBRRmshAOkg}{127.0.0.1}{127.0.0.1:9302}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-30 14:19:49,173][INFO ][http                     ] [Anti-Cap] publish_address {127.0.0.1:9202}, bound_addresses {[::1]:9202}, {127.0.0.1:9202}
+[2016-04-30 14:19:49,173][INFO ][node                     ] [Anti-Cap] started
+[2016-04-30 14:19:49,253][INFO ][gateway                  ] [Anti-Cap] recovered [0] indices into cluster_state
+[2016-04-30 18:47:56,515][INFO ][node                     ] [Anti-Cap] stopping ...
+[2016-04-30 18:47:56,567][INFO ][node                     ] [Paris] stopping ...
+[2016-04-30 18:47:56,659][INFO ][node                     ] [Anti-Cap] stopped
+[2016-04-30 18:47:56,660][INFO ][node                     ] [Anti-Cap] closing ...
+[2016-04-30 18:47:56,679][INFO ][node                     ] [Alistaire Stuart] stopping ...
+[2016-04-30 18:47:56,705][INFO ][cluster.metadata         ] [Paris] [my] update_mapping [book]
+[2016-04-30 18:47:56,732][INFO ][node                     ] [Anti-Cap] closed
+[2016-04-30 18:47:56,772][INFO ][node                     ] [Alistaire Stuart] stopped
+[2016-04-30 18:47:56,773][INFO ][node                     ] [Alistaire Stuart] closing ...
+[2016-04-30 18:47:56,798][INFO ][node                     ] [Alistaire Stuart] closed
+[2016-04-30 18:47:56,861][DEBUG][action.admin.indices.stats] [Paris] failed to execute [indices:monitor/stats] on node [v95bNGNxSdyouOiCdhH-Uw]
+TransportException[transport stopped, action: indices:monitor/stats[n]]
+	at org.elasticsearch.transport.TransportService$2.run(TransportService.java:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-30 18:47:56,875][WARN ][rest.suppressed          ] /my/book/1 Params: {index=my, id=1, type=book}
+TransportException[transport stopped, action: indices:data/write/index[p]]
+	at org.elasticsearch.transport.TransportService$2.run(TransportService.java:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-30 18:47:56,878][WARN ][netty.channel.DefaultChannelPipeline] An exception was thrown by an exception handler.
+java.util.concurrent.RejectedExecutionException: Worker has already been shutdown
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.registerTask(AbstractNioSelector.java:120)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.executeInIoThread(AbstractNioWorker.java:72)
+	at org.jboss.netty.channel.socket.nio.NioWorker.executeInIoThread(NioWorker.java:36)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.executeInIoThread(AbstractNioWorker.java:56)
+	at org.jboss.netty.channel.socket.nio.NioWorker.executeInIoThread(NioWorker.java:36)
+	at org.jboss.netty.channel.socket.nio.AbstractNioChannelSink.execute(AbstractNioChannelSink.java:34)
+	at org.jboss.netty.channel.DefaultChannelPipeline.execute(DefaultChannelPipeline.java:636)
+	at org.jboss.netty.channel.Channels.fireExceptionCaughtLater(Channels.java:496)
+	at org.jboss.netty.channel.AbstractChannelSink.exceptionCaught(AbstractChannelSink.java:46)
+	at org.jboss.netty.channel.DefaultChannelPipeline.notifyHandlerException(DefaultChannelPipeline.java:658)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:781)
+	at org.jboss.netty.channel.Channels.write(Channels.java:725)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.doEncode(OneToOneEncoder.java:71)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:59)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:784)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.handleDownstream(HttpPipeliningHandler.java:87)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+	at org.elasticsearch.http.netty.NettyHttpChannel.sendResponse(NettyHttpChannel.java:146)
+	at org.elasticsearch.rest.action.support.RestActionListener.onFailure(RestActionListener.java:60)
+	at org.elasticsearch.action.support.TransportAction$1.onFailure(TransportAction.java:95)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.finishAsFailed(TransportReplicationAction.java:567)
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase$1.handleException(TransportReplicationAction.java:527)
+	at org.elasticsearch.transport.TransportService$2.run(TransportService.java:206)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-04-30 18:47:56,859][WARN ][transport                ] [Paris] Transport response handler not found of id [276]
+[2016-04-30 18:47:56,949][WARN ][transport                ] [Paris] Transport response handler not found of id [274]
+[2016-04-30 18:47:57,267][INFO ][node                     ] [Paris] stopped
+[2016-04-30 18:47:57,267][INFO ][node                     ] [Paris] closing ...
+[2016-04-30 18:47:57,283][INFO ][node                     ] [Paris] closed
+[2016-04-30 18:48:30,727][INFO ][node                     ] [Mikhail Rasputin] version[2.3.2], pid[8374], build[b9e4a6a/2016-04-21T16:03:47Z]
+[2016-04-30 18:48:30,728][INFO ][node                     ] [Mikhail Rasputin] initializing ...
+[2016-04-30 18:48:31,758][INFO ][plugins                  ] [Mikhail Rasputin] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-30 18:48:31,803][INFO ][env                      ] [Mikhail Rasputin] using [1] data paths, mounts [[/ (/dev/disk/by-uuid/ea8b11de-1c7e-42ff-920c-7920affc6e86)]], net usable_space [118.4gb], net total_space [142.2gb], spins? [possibly], types [ext4]
+[2016-04-30 18:48:31,803][INFO ][env                      ] [Mikhail Rasputin] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2016-04-30 18:48:35,703][INFO ][node                     ] [Mikhail Rasputin] initialized
+[2016-04-30 18:48:35,704][INFO ][node                     ] [Mikhail Rasputin] starting ...
+[2016-04-30 18:48:35,960][INFO ][transport                ] [Mikhail Rasputin] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2016-04-30 18:48:35,979][INFO ][discovery                ] [Mikhail Rasputin] elasticsearch/zbVf9TR_RTW5IYEmGYpMIw
+[2016-04-30 18:48:39,132][INFO ][cluster.service          ] [Mikhail Rasputin] new_master {Mikhail Rasputin}{zbVf9TR_RTW5IYEmGYpMIw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-30 18:48:39,195][INFO ][http                     ] [Mikhail Rasputin] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2016-04-30 18:48:39,196][INFO ][node                     ] [Mikhail Rasputin] started
+[2016-04-30 18:48:39,474][INFO ][gateway                  ] [Mikhail Rasputin] recovered [2] indices into cluster_state
+[2016-04-30 18:48:41,727][INFO ][cluster.routing.allocation] [Mikhail Rasputin] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[lib][1], [lib][1]] ...]).
