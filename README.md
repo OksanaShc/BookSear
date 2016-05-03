@@ -35,6 +35,7 @@ For installing the all components of project and tests you need install all clon
 3. python manage.py test -v 2 | tee -a "test_report.log"
 4. python manage.py runserver
 
+To work with app: Open browser, input http://127.0.0.1:8000/
 Do not close terminal until you finished your work with app
 ----------------------------------- -------------- Reports -------------------------------------
 Reporting are implemented via unittest framework
