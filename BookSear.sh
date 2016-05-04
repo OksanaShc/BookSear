@@ -1,4 +1,4 @@
-#!/bin/.sh
+#!/bin/bash
 bash  elasticsearch/bin/elasticsearch -d
 echo 'elasticsearch running'
 echo "WAIT PLEASE"
