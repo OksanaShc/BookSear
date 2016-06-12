@@ -5,7 +5,7 @@
 * The project was tested on Ubuntu and Mac Os       *
 *****************************************************
 
-Here is BookSear, my test work.
+Here is BookSear, my app for search in books stored in Elasticsearch
 
 Requirements:
 *Python 2.7

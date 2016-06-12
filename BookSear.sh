@@ -10,4 +10,4 @@ python manage.py test -v 2 | tee "test_report.log"
 python manage.py runserver
 
 
-exit 0
+
